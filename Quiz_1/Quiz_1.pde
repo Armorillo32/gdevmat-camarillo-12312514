@@ -29,7 +29,7 @@ void drawQuadratic()
 {
   color yellow = color(255, 255, 0);
   stroke(yellow);
-  noFill();
+  fill(yellow);
 
   float prevX = -300;
   float prevY = (prevX * prevX - 15 * prevX - 3) * -0.05;
@@ -46,7 +46,7 @@ void drawLinear()
 {
   color purple = color(128, 0, 128);
   stroke(purple);
-  noFill();
+  fill(purple);
 
   float prevX = -300;
   float prevY = (-5 * prevX + 30) * -5;
@@ -64,7 +64,7 @@ void drawSineWave()
 {
   color blue = color(0, 150, 255);
   stroke(blue);
-  noFill();
+  fill(blue);
 
   float prevX = -300;
   float prevY = 50 * sin(0.05 * prevX);
